@@ -1,0 +1,4 @@
+#2a2af0 - a hover
+#5a5af3 - primary
+#7272f5 - i hover
+
