@@ -1019,7 +1019,6 @@ section {
 
 .pricing .box {
   padding: 40px;
-  margin-bottom: 30px;
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   background: #fff;
   text-align: center;
@@ -1094,8 +1093,9 @@ section {
 }
 
 .pricing .featured {
-  z-index: 10;
-  margin: -30px -5px 0 -5px;
+  /* z-index: 10;
+  margin: -30px -5px -30px -5px; */
+  box-shadow: 0px 0px 10px #5a5af3;
 }
 
 .pricing .featured .btn-buy {
@@ -1108,7 +1108,7 @@ section {
 
 @media (max-width: 992px) {
   .pricing .box {
-    max-width: 60%;
+    max-width: 40%;
     margin: 0 auto 30px auto;
   }
 }
